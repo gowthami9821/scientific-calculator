@@ -1,7 +1,7 @@
 import math 
 from math import sin, cos, tan, pi, log10 , sqrt, log
 from tkinter import *
-from PIL import Image, ImageTk
+#from PIL import Image, ImageTk
 import sympy as sp
 
  
@@ -168,8 +168,8 @@ class calculator():
         self.button_equals.config(font=("Comic Sans MS",14))
 
         
-        icon = ImageTk.PhotoImage(file = r'C:\Users\neeso\OneDrive\文件\cal\icon_of_cal.png')
-        self.root.iconphoto(True,icon)
+        #icon = ImageTk.PhotoImage(file = r'C:\Users\neeso\OneDrive\文件\cal\icon_of_cal.png')
+        #self.root.iconphoto(True,icon)
 
         self.root.mainloop()
 
